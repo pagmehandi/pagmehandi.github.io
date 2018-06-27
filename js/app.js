@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
   const options = {
     interval: 6000,
+    indicators: true,
   };
   var elems = document.querySelectorAll('.slider');
   M.Slider.init(elems, options);
